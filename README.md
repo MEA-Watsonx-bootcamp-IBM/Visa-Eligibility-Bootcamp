@@ -180,7 +180,7 @@ Do not make any decisions or assessments about the documents.
 Do not add any commentary or explanation to the output.
 Return only what the workflow produces.
 ```
-<img width="1142" height="757" alt="image" src="https://github.com/user-attachments/assets/6635d0f9-dfaa-430a-934e-c57beaace47e" />
+<img width="1102" height="759" alt="image" src="https://github.com/user-attachments/assets/eaafd44d-ca96-4781-9856-b8f511974242" />
 
 ---
 
@@ -719,7 +719,7 @@ Verify the tool was imported — go to your browser:
 ```
 
 If `check_visa_eligibility` appears in the list, the tool is ready. ✅
-<img width="1311" height="645" alt="image" src="https://github.com/user-attachments/assets/5c270935-b64f-4cbd-8449-6dd037952e54" />
+<img width="1322" height="757" alt="image" src="https://github.com/user-attachments/assets/739e7047-01ee-44a1-ab61-fe13f8d0b8b4" />
 
 ---
 
