@@ -129,9 +129,9 @@ Three passports and matching birth certificates are provided. Each has a specifi
 
 | Role | Person | Passport | Birth Certificate |
 |---|---|---|---|
-| 🔵 Training — used while building | Maksym Staniszewski | [maksym_passport.png](ICP_Documents/Testing_True/maksym_passport.png) | [maksym_birth_certificate.png](ICP_Documents/Testing_True/maksym_birth_certificate.png) |
-| ✅ Test: ELIGIBLE | Juan Tapia | [JT_polpp_passport.jpg](ICP_Documents/Training/JT_polpp_passport.jpg) | [JT_polpp_birth certificate.png](ICP_Documents/Training/JT_polpp_birth%20certificate.png) |
-| ❌ Test: REJECTED | Celeste Nguemo | [cameroon_passport.jpg](ICP_Documents/Testing_False/cameroon_passport.jpg) | [cameroon_birth_certificate.png](ICP_Documents/Testing_False/cameroon_birth_certificate.png) |
+| 🔵 Training — used while building | Maksym Staniszewski | [maksym_passport.png](Documents/Testing_True/maksym_passport.png) | [maksym_birth_certificate.png](Documents/Testing_True/maksym_birth_certificate.png) |
+| ✅ Test: ELIGIBLE | Juan Tapia | [JT_polpp_passport.jpg](Documents/Training/JT_polpp_passport.jpg) | [JT_polpp_birth certificate.png](Documents/Training/JT_polpp_birth%20certificate.png) |
+| ❌ Test: REJECTED | Celeste Nguemo | [cameroon_passport.jpg](Documents/Testing_False/cameroon_passport.jpg) | [cameroon_birth_certificate.png](Documents/Testing_False/cameroon_birth_certificate.png) |
 
 > During **Part 1** upload the **training documents** (Juan Tapia) into the Document Extractor nodes.
 > Swap to test documents during [Test Scenarios](#test-scenarios).
@@ -1093,7 +1093,7 @@ When asked about a flight ticket, answer **No**.
 **Expected:** Agent stops immediately with mandatory requirement message.
 
 ---
-| ✅ Test: ELIGIBLE | Juan Tapia | [JT_polpp_passport.jpg](ICP_Documents/Training/JT_polpp_passport.jpg) | [JT_polpp_birth certificate.png](ICP_Documents/Training/JT_polpp_birth%20certificate.png) |
+| ✅ Test: ELIGIBLE | Juan Tapia | [JT_polpp_passport.jpg](Documents/Training/JT_polpp_passport.jpg) | [JT_polpp_birth certificate.png](Documents/Training/JT_polpp_birth%20certificate.png) |
 
 ### Scenario 2 — Test ELIGIBLE ✅
 
@@ -1101,8 +1101,8 @@ Upload when prompted:
 
 | | |
 |---|---|
-| Passport | [JT_polpp_passport.jpg](ICP_Documents/Training/JT_polpp_passport.jpg) |
-| Birth cert | [JT_polpp_birth certificate.png](ICP_Documents/Training/JT_polpp_birth%20certificate.png) |
+| Passport | [JT_polpp_passport.jpg](Documents/Training/JT_polpp_passport.jpg) |
+| Birth cert | [JT_polpp_birth certificate.png](Documents/Training/JT_polpp_birth%20certificate.png) |
 | **Expected** | **ELIGIBLE** |
 
 ---
@@ -1113,8 +1113,8 @@ Upload when prompted:
 
 | | |
 |---|---|
-| Passport | [cameroon_passport.jpg](ICP_Documents/Testing_False/cameroon_passport.jpg) |
-| Birth cert | [cameroon_birth_certificate.png](ICP_Documents/Testing_False/cameroon_birth_certificate.png) |
+| Passport | [cameroon_passport.jpg](Documents/Testing_False/cameroon_passport.jpg) |
+| Birth cert | [cameroon_birth_certificate.png](Documents/Testing_False/cameroon_birth_certificate.png) |
 | **Expected** | **REJECTED — nationality restriction** |
 
 > CMR is in the restricted list. Nationality is checked first so it fires before the expiry check.
