@@ -20,8 +20,6 @@
 - [Part 3 — Master Agent](#part-3--build-the-master-agent)
 - [Full Pipeline Test](#full-pipeline-test)
 - [Test Scenarios](#test-scenarios)
-- [Key Concepts](#key-concepts)
-
 ---
 
 ## 1. What is watsonx Orchestrate?
@@ -1034,7 +1032,7 @@ Click **Add**.
 ## Full Pipeline Test
 
 On the Master Agent page, click the **refresh button** on the top left of the agent chat panel on the right side → click the quick start prompt:
-<img width="1346" height="755" alt="image" src="https://github.com/user-attachments/assets/1f6f6b70-b336-4949-a9bd-1a12e87b833f" />
+<img width="1322" height="755" alt="image" src="https://github.com/user-attachments/assets/b442d21b-bd2c-434b-a3d9-54f1dea65248" />
 
 ```
 Check for Tourist Visa Eligibility
