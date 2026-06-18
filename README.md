@@ -1024,8 +1024,8 @@ Click the **Toolset** tab on the right side menu → scroll down to the **Agents
 - `eligibility_agent`
 
 Click **Add**.
+<img width="1148" height="760" alt="image" src="https://github.com/user-attachments/assets/aec46461-5cec-4d53-8d99-501012c665c3" />
 
----
 
 ---
 
