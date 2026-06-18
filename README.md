@@ -1079,7 +1079,32 @@ Agent : **Applicant:** Juan Tapia
         We wish you a wonderful trip!
 ```
 
+<details>
+<summary> <strong>💡 Tip — Viewing Agent Reasoning (click to expand) </strong> </summary>
+
+watsonx Orchestrate provides this reasoning trace as a transparency
+feature — it lets you see exactly what an agent is doing instead of
+treating it as a black box. While chatting with the agent in
+Orchestrate's test panel, you can click **"Show Reasoning"** in the
+top-right of any agent response to expand a step-by-step trace of
+what the agent did behind the scenes — which sub-agent or tool it
+called, what inputs it passed, and what was returned.
+
+Click **Step 1**, **Step 2**, etc. to expand each individual tool call
+and see the exact input/output JSON.
+
+This transparency is especially useful for debugging this lab: if a
+response looks wrong (e.g. an unexpected REJECTED result), expand the
+reasoning to trace exactly what values were sent to `eligibility_agent`
+and compare them against what you'd expect from Phase 0 and
+`document_agent`.
+
+<img width="795" height="747" alt="image" src="https://github.com/user-attachments/assets/ea0235bb-d7c0-4720-b377-3c2b0f3d739f" />
+
+</details>
+
 ---
+
 
 ## Test Scenarios
 
