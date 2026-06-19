@@ -752,7 +752,7 @@ EXP_DATE: 2030-02-24
 DOB_birth_certificate: 1988-08-08
 full_name_birth_certificate: JUAN TAPIA
 has_flight_ticket: true
-accommodation_address: Hotel — Beirut
+accommodation_address: Hotel
 ```
 
 **Expected result:** `All Tourist Visa requirements met. Applicant: JUAN TAPIA | Passport: 15082701 | Nationality: POLISH`
