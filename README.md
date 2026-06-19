@@ -263,8 +263,8 @@ Click **Add field** and add these fields:
 | `Nationality code` | string | 3-letter ISO code from the CODE/KOD field at the top of the passport. NOT the nationality word. `CMR`=Cameroonian, `POL`=Polish, `ARE`=Emirati, `GBR`=British, `IND`=Indian, `USA`=American, `PAK`=Pakistani, `PHL`=Filipino, `EGY`=Egyptian, `AFG`=Afghan, `LBY`=Libyan, `SDN`=Sudanese, `YEM`=Yemeni, `SOM`=Somali |
 | `given name` | string | Given name as printed |
 | `surname` | string | Surname as printed |
-| `Date of Birth` | date | Date of birth — format `YYYY-MM-DD` |
-| `date of expiry` | date | Expiry date — format `YYYY-MM-DD` |
+| `Date of Birth` | date | Date of birth — format `YYYY-MM-DD`. Look at the "Date of Birth" Section |
+| `date of expiry` | date | Expiry date — format `YYYY-MM-DD`. Look at the "Date of Expiry" Section  |
 
 ---
 
